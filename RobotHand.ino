@@ -55,7 +55,7 @@ void receiveData() {
 
 void loop() {
   receiveData();
-  servoThumb.write(valsRec[0] = 1 ? 180 : 0);
+  servoThumb.write(valsRec[0] == 1 ? 180 : 0);
   servoIndex.write(valsRec[1] == 1 ? 180 : 0);
   servoMiddle.write(valsRec[2] == 1 ? 180 : 0);
   servoRing.write(valsRec[3] == 1 ? 180 : 0);
