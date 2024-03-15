@@ -16,7 +16,6 @@ int fingerSpeed = 20, HandSpeed = 20;
 // LED and Button pins
 int BLED = 13;
 int RLED = 12;
-int PUSH = 8;
 int SWITCH = 9;
 
 // Variables for serial communication
