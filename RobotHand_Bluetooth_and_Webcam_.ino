@@ -35,7 +35,6 @@ void setup() {
   // Initialize LED and Button pins
   pinMode(BLED, OUTPUT);
   pinMode(RLED, OUTPUT);
-  pinMode(PUSH, INPUT_PULLUP);
   pinMode(SWITCH, INPUT_PULLUP);
 
   // Attach servos
